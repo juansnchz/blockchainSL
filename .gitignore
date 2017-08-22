@@ -1,0 +1,3 @@
+#Este archivo es para ignorar cosas a las que no quiero hacerles tracking 
+
+.DS_Store
