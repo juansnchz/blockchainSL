@@ -20,8 +20,16 @@
     <div class="row"> 
       <h3 class="bg-info text-white py-4  col col-xs-10 text-center">Tracking del envío #134AZ</h3>
     </div> <!--Row-->
+    <div class="alert alert-warning alert-dismissible fade show mb-2">   
+      <button type="button" class="close" data-dismiss="alert" aria-label="close"><span aria-hidden="">X</span></button>
+      <p class="text-left mb-0">Demora de 40 minutos</p> 
+    </div> <!-- Div del alert warning -->
+    <div class="alert alert-danger alert-dismissible fade show">   
+      <button type="button" class="close" data-dismiss="alert" aria-label="close"><span aria-hidden="">X</span></button>
+      <p class="text-left mb-0">El conductor ha tomado otra ruta a las 17:58 del 30/08/2017</p> 
+    </div> <!-- Div del alert danger -->
   </header>  
- 
+
   <img class="img-fluid my-4 col-9" src="assets/carro.png">
    <hr/>
   <h3 class="pt-1 text-caption">Placa del vehículo</h3>
@@ -52,6 +60,9 @@
    <hr/>
   
   <h3 class="pt-1 text-caption">Información del viaje</h3>
+  <div class="progress mt-3">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%; height: 25px"><p class="mt-1">60% del recorrido finalizado</p></div>
+  </div>
   <img class="img-fluid col-11 py-4" src="assets/viaje.gif">
   <dl> <!--Información del viaje -->
     <dt class="text-uppercase">Remitente</dt>
